@@ -17,26 +17,31 @@ export const metadata = {
 const lalezar = Lalezar({
   weight: "400",
   variable: "--font-lalezar",
+  preload: false,
 });
 
 const michroma = Michroma({
   weight: "400",
   variable: "--font-michroma",
+  preload: false,
 });
 
 const maven_pro = Maven_Pro({
   weight: "400",
   variable: "--font-maven_pro",
+  preload: false,
 });
 
 const paprika = Paprika({
   weight: "400",
   variable: "--font-paprika",
+  preload: false,
 });
 
 const krona_one = Krona_One({
   weight: "400",
   variable: "--font-krona_one",
+  preload: false,
 });
 
 export default function RootLayout({ children }) {
