@@ -11,13 +11,17 @@ export const Certificates = () => {
     const [isTablet, setIsTablet] = useState(false);
     const [isComputer, setIsComputer] = useState(false);
     const [screenValue, setScreenValue] = useState({
-        width: window.innerWidth,
-        height: window.innerHeight
+        width: 0,
+        height: 0
     });
 
     console.log(screenValue);
     
         useEffect(() => {
+        setScreenValue({
+            width: window.innerWidth,
+            height: window.innerHeight
+        });
         const mediaQueryMedium = window.matchMedia('(max-width: 1055px)');
         console.log(mediaQueryMedium);
         setIsTablet(mediaQueryMedium.matches);
@@ -25,9 +29,13 @@ export const Certificates = () => {
         const handler = (e) => setIsTablet(e.matches);
         mediaQueryMedium.addEventListener('change', handler);
         return () => mediaQueryMedium.removeEventListener('change', handler);
-        }, [window.innerWidth]);
+        }, []);
 
         useEffect(() => {
+            setScreenValue({
+                width: window.innerWidth,
+                height: window.innerHeight
+            });
         const mediaQuerySmall = window.matchMedia('(max-width: 790px)');
         console.log(mediaQuerySmall);
         setIsMobile(mediaQuerySmall.matches);
@@ -35,7 +43,7 @@ export const Certificates = () => {
         const handler = (e) => setIsMobile(e.matches);
         mediaQuerySmall.addEventListener('change', handler);
         return () => mediaQuerySmall.removeEventListener('change', handler);
-        }, [window.innerWidth]);
+        }, []);
 
 
         
