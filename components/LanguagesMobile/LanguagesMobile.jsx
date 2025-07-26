@@ -31,9 +31,9 @@ const LanguagesMobile = () => {
               className="w-[39px] h-[39px] rounded-3xl  flex justify-center items-center bg-[#242424] light:bg-[#fff] border-2 border-[#fff] light:border-[#242424] cursor-pointer duration-500 hover:bg-[#fff] hover:border-[#fff]"
             >
             {lng === "ua" ?  
-            <Image src="/Ukraine.png" alt="flag" width={25} height={25} />
+            <Image src="./Ukraine.png" alt="flag" width={25} height={25} />
             :
-            <Image src="/Great-Britain.png" alt="flag" width={25} height={25} />
+            <Image src="./Great-Britain.png" alt="flag" width={25} height={25} />
             }
             </button>
           ))}

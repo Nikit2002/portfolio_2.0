@@ -13,10 +13,10 @@ export default function MobileHeader() {
     const {theme, setTheme} = useTheme();
     return(
         <>
-        <button type="button" onClick={() => setIsOpenMenu(!isOpenMenu)}><Image src={`${theme === "dark" ? "/burger-menu-light.svg" : "/burger-menu-dark.svg"  }`} alt="burger menu icon" width={39} height={39}/></button>
+        <button type="button" onClick={() => setIsOpenMenu(!isOpenMenu)}><Image src={`${theme === "dark" ? "./burger-menu-light.svg" : "./burger-menu-dark.svg"  }`} alt="burger menu icon" width={39} height={39}/></button>
         {isOpenMenu &&
         <section className="w-[100%] m-[auto] bg-[#242424] light:bg-[#fff] border-2 border-[#fff] light:border-[#242424] flex flex-col items-center gap-[20px] absolute top-0 z-1000 pb-[20px]">
-            <button type="button" onClick={() => setIsOpenMenu(!isOpenMenu)} className="ml-[auto] p-[20px]"><Image src={`${theme === "dark" ? "/close-light.svg" : "/close-dark.svg"  }`} alt="close menu icon" width={39} height={39}/></button>
+            <button type="button" onClick={() => setIsOpenMenu(!isOpenMenu)} className="ml-[auto] p-[20px]"><Image src={`${theme === "dark" ? "./close-light.svg" : "./close-dark.svg"  }`} alt="close menu icon" width={39} height={39}/></button>
             <div>
                 <Link href="/" className="font-Lalezar text-4xl text-[#fff] light:text-[#242424]">MD</Link>
             </div>

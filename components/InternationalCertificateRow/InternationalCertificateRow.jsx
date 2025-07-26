@@ -48,8 +48,8 @@ export const InternationalCertificateRow = ({startIdx, endIdx}) => {
                         <div className="w-[250px] h-[150px] border border-[#fff] bg-[#000] opacity-0 absolute group-hover:opacity-80 text-center flex flex-col items-center rounded-[20px]">
                             <span className="font-Michroma text-center text-xl text-[#fff] break-word mt-[20px]">{certificate.name}</span>
                             <div className="flex flex-row gap-[20px] mt-[10px]">
-                            <button type="button" className="w-[45px] h-[45px] border-2 cursor-pointer border-[#fff] rounded-[20px] flex items-center justify-center" onClick={() => viewCertificate(certificate.image)}><Image src='/Search.png' alt="search logo" width={30} height={30} /></button>
-                            {certificate.verify != "" && <a href={certificate.verify} className="w-[45px] h-[45px] border-2 cursor-pointer border-[#fff] rounded-[20px] flex items-center justify-center"><Image src='/Checkmark.png' alt="check validity logo" width={30} height={30} /></a>}
+                            <button type="button" className="w-[45px] h-[45px] border-2 cursor-pointer border-[#fff] rounded-[20px] flex items-center justify-center" onClick={() => viewCertificate(certificate.image)}><Image src='./Search.png' alt="search logo" width={30} height={30} /></button>
+                            {certificate.verify != "" && <a href={certificate.verify} className="w-[45px] h-[45px] border-2 cursor-pointer border-[#fff] rounded-[20px] flex items-center justify-center"><Image src='./Checkmark.png' alt="check validity logo" width={30} height={30} /></a>}
                             </div>
                         </div>
                     </div>

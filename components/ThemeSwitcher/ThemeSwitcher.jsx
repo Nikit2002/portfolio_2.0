@@ -30,9 +30,9 @@ const ThemeSwitcher = () => {
           }`}
         >
           {isChecked && theme === "light" ?
-          <Image src="/sun-light.svg" alt='light sun' width={20} height={20} />
+          <Image src="./sun-light.svg" alt='light sun' width={20} height={20} />
           :
-          <Image src="/sun-dark.svg" alt='dark sun' width={20} height={20} />
+          <Image src="./sun-dark.svg" alt='dark sun' width={20} height={20} />
         }
         </span>
         <span
@@ -41,9 +41,9 @@ const ThemeSwitcher = () => {
           }`}
         >
          {!isChecked && theme === "light" ?
-          <Image src="/moon-light.svg" alt='light moon' width={20} height={20} />
+          <Image src="./moon-light.svg" alt='light moon' width={20} height={20} />
           :
-          <Image src="/moon-dark.svg" alt='dark moon' width={20} height={20} />
+          <Image src="./moon-dark.svg" alt='dark moon' width={20} height={20} />
           }
         </span>
       </label>

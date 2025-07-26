@@ -92,16 +92,16 @@ viewport={{ once: true }}
 >
     <div className="w-[100%] h-[370px] flex flex-row text-center justify-center justify-items-center m-[auto] items-center">
         <div>
-        <Image src='/companies/tjc.png' alt="company logo" width={100} height={100} className={`${theme === "dark" ? "invert-100 sepia-100 saturate-[0] hue-rotate-[309deg] brightness-[1.06] contrast-[1.01]" : "invert-[0] sepia-[.04] hue-rotate-[348deg] brightness-[1.03] contrast-[.72]"}`} />
+        <Image src='./companies/tjc.png' alt="company logo" width={100} height={100} className={`${theme === "dark" ? "invert-100 sepia-100 saturate-[0] hue-rotate-[309deg] brightness-[1.06] contrast-[1.01]" : "invert-[0] sepia-[.04] hue-rotate-[348deg] brightness-[1.03] contrast-[.72]"}`} />
         </div>
         <div className="flex flex-col">
         <span className="font-Michroma text-base text-[#fff] light:text-[#242424] text-center">TJC</span>
         <span className="font-Michroma text-base text-[#fff] light:text-[#242424] text-center">Backend Developer</span>
         <span className="font-Michroma text-base text-[#fff] light:text-[#242424] text-center">2022-2023</span>
         <div className="flex flex-wrap justify-center gap-[20px]">
-            <Image src={`${theme === "dark" ? "/hard-skills-logos/icon-css3.svg" : "/hard-skills-logos/lightTheme/icon-css3.svg"}`} alt="skill icon" width={40} height={40} />
-            <Image src={`${theme === "dark" ? "/hard-skills-logos/icon-javascript.svg" : "/hard-skills-logos/lightTheme/icon-javascript.svg"}`} alt="skill icon" width={40} height={40} />
-            <Image src={`${theme === "dark" ? "/hard-skills-logos/icon-sass.svg" : "/hard-skills-logos/lightTheme/icon-sass.svg"}`} alt="skill icon" width={40} height={40} />
+            <Image src={`${theme === "dark" ? "./hard-skills-logos/icon-css3.svg" : "./hard-skills-logos/lightTheme/icon-css3.svg"}`} alt="skill icon" width={40} height={40} />
+            <Image src={`${theme === "dark" ? "./hard-skills-logos/icon-javascript.svg" : "./hard-skills-logos/lightTheme/icon-javascript.svg"}`} alt="skill icon" width={40} height={40} />
+            <Image src={`${theme === "dark" ? "./hard-skills-logos/icon-sass.svg" : "./hard-skills-logos/lightTheme/icon-sass.svg"}`} alt="skill icon" width={40} height={40} />
         </div>
         </div>
     </div>
@@ -177,16 +177,16 @@ viewport={{ once: true }}
 >
     <div className="w-[100%] h-[370px] flex flex-row text-center justify-center justify-items-center m-[auto] items-center">
         <div>
-        <Image src='/companies/tjc.png' alt="company logo" width={100} height={100} className={`${theme === "dark" ? "invert-100 sepia-100 saturate-[0] hue-rotate-[309deg] brightness-[1.06] contrast-[1.01]" : "invert-[0] sepia-[.04] hue-rotate-[348deg] brightness-[1.03] contrast-[0.72]"}`} />
+        <Image src='./companies/tjc.png' alt="company logo" width={100} height={100} className={`${theme === "dark" ? "invert-100 sepia-100 saturate-[0] hue-rotate-[309deg] brightness-[1.06] contrast-[1.01]" : "invert-[0] sepia-[.04] hue-rotate-[348deg] brightness-[1.03] contrast-[0.72]"}`} />
         </div>
         <div className="flex flex-col">
         <span className="font-Michroma text-base text-[#fff] light:text-[#242424] text-center">TJC</span>
         <span className="font-Michroma text-base text-[#fff] light:text-[#242424] text-center">Backend Developer</span>
         <span className="font-Michroma text-base text-[#fff] light:text-[#242424] text-center">2022-2023</span>
         <div className="flex flex-wrap justify-center gap-[20px]">
-            <Image src={`${theme === "dark" ? "/hard-skills-logos/icon-css3.svg" : "/hard-skills-logos/lightTheme/icon-css3.svg"}`} alt="skill icon" width={40} height={40} />
-            <Image src={`${theme === "dark" ? "/hard-skills-logos/icon-javascript.svg" : "/hard-skills-logos/lightTheme/icon-javascript.svg"}`} alt="skill icon" width={40} height={40} />
-            <Image src={`${theme === "dark" ? "/hard-skills-logos/icon-sass.svg" : "/hard-skills-logos/lightTheme/icon-sass.svg"}`} alt="skill icon" width={40} height={40} />
+            <Image src={`${theme === "dark" ? "./hard-skills-logos/icon-css3.svg" : "./hard-skills-logos/lightTheme/icon-css3.svg"}`} alt="skill icon" width={40} height={40} />
+            <Image src={`${theme === "dark" ? "./hard-skills-logos/icon-javascript.svg" : "./hard-skills-logos/lightTheme/icon-javascript.svg"}`} alt="skill icon" width={40} height={40} />
+            <Image src={`${theme === "dark" ? "./hard-skills-logos/icon-sass.svg" : "./hard-skills-logos/lightTheme/icon-sass.svg"}`} alt="skill icon" width={40} height={40} />
         </div>
         </div>
     </div>
@@ -262,16 +262,16 @@ viewport={{ once: true }}
   >
     <div className="w-[100%] h-[370px] flex flex-row text-center justify-center justify-items-center m-[auto] items-center">
         <div>
-        <Image src='/companies/tjc.png' alt="company logo" width={100} height={100} className={`${theme === "dark" ? "invert-100 sepia-100 saturate-[0] hue-rotate-[309deg] brightness-[1.06] contrast-[1.01]" : "invert-[0] sepia-[.04] hue-rotate-[348deg] brightness-[1.03] contrast-[.72]"}`} />
+        <Image src='./companies/tjc.png' alt="company logo" width={100} height={100} className={`${theme === "dark" ? "invert-100 sepia-100 saturate-[0] hue-rotate-[309deg] brightness-[1.06] contrast-[1.01]" : "invert-[0] sepia-[.04] hue-rotate-[348deg] brightness-[1.03] contrast-[.72]"}`} />
         </div>
         <div className="flex flex-col">
         <span className="font-Michroma text-base text-[#fff] light:text-[#242424] text-center">TJC</span>
         <span className="font-Michroma text-base text-[#fff] light:text-[#242424] text-center">Backend Developer</span>
         <span className="font-Michroma text-base text-[#fff] light:text-[#242424] text-center">2022-2023</span>
         <div className="flex flex-wrap justify-center gap-[20px]">
-            <Image src={`${theme === "dark" ? "/hard-skills-logos/icon-css3.svg" : "/hard-skills-logos/lightTheme/icon-css3.svg"}`} alt="skill icon" width={40} height={40} />
-            <Image src={`${theme === "dark" ? "/hard-skills-logos/icon-javascript.svg" : "/hard-skills-logos/lightTheme/icon-javascript.svg"}`} alt="skill icon" width={40} height={40} />
-            <Image src={`${theme === "dark" ? "/hard-skills-logos/icon-sass.svg" : "/hard-skills-logos/lightTheme/icon-sass.svg"}`} alt="skill icon" width={40} height={40} />
+            <Image src={`${theme === "dark" ? "./hard-skills-logos/icon-css3.svg" : "./hard-skills-logos/lightTheme/icon-css3.svg"}`} alt="skill icon" width={40} height={40} />
+            <Image src={`${theme === "dark" ? "./hard-skills-logos/icon-javascript.svg" : "./hard-skills-logos/lightTheme/icon-javascript.svg"}`} alt="skill icon" width={40} height={40} />
+            <Image src={`${theme === "dark" ? "./hard-skills-logos/icon-sass.svg" : "./hard-skills-logos/lightTheme/icon-sass.svg"}`} alt="skill icon" width={40} height={40} />
         </div>
         </div>
     </div>
@@ -347,16 +347,16 @@ viewport={{ once: true }}
    >
     <div className="w-[100%] h-[370px] flex flex-row text-center justify-center justify-items-center m-[auto] items-center">
         <div>
-        <Image src='/companies/tjc.png' alt="company logo" width={100} height={100} className={`${theme === "dark" ? "invert-100 sepia-100 saturate-[0] hue-rotate-[309deg] brightness-[1.06] contrast-[1.01]" : "invert-[0] sepia-[.04]  hue-rotate-[348deg] brightness-[1.03] contrast-[.72]"}`} />
+        <Image src='./companies/tjc.png' alt="company logo" width={100} height={100} className={`${theme === "dark" ? "invert-100 sepia-100 saturate-[0] hue-rotate-[309deg] brightness-[1.06] contrast-[1.01]" : "invert-[0] sepia-[.04]  hue-rotate-[348deg] brightness-[1.03] contrast-[.72]"}`} />
         </div>
         <div className="flex flex-col">
         <span className="font-Michroma text-base text-[#fff] light:text-[#242424] text-center">TJC</span>
         <span className="font-Michroma text-base text-[#fff] light:text-[#242424] text-center">Backend Developer</span>
         <span className="font-Michroma text-base text-[#fff] light:text-[#242424] text-center">2022-2023</span>
         <div className="flex flex-wrap justify-center gap-[20px]">
-            <Image src={`${theme === "dark" ? "/hard-skills-logos/icon-css3.svg" : "/hard-skills-logos/lightTheme/icon-css3.svg"}`} alt="skill icon" width={40} height={40} />
-            <Image src={`${theme === "dark" ? "/hard-skills-logos/icon-javascript.svg" : "/hard-skills-logos/lightTheme/icon-javascript.svg"}`} alt="skill icon" width={40} height={40} />
-            <Image src={`${theme === "dark" ? "/hard-skills-logos/icon-sass.svg" : "/hard-skills-logos/lightTheme/icon-sass.svg"}`} alt="skill icon" width={40} height={40} />
+            <Image src={`${theme === "dark" ? "./hard-skills-logos/icon-css3.svg" : "./hard-skills-logos/lightTheme/icon-css3.svg"}`} alt="skill icon" width={40} height={40} />
+            <Image src={`${theme === "dark" ? "./hard-skills-logos/icon-javascript.svg" : "./hard-skills-logos/lightTheme/icon-javascript.svg"}`} alt="skill icon" width={40} height={40} />
+            <Image src={`${theme === "dark" ? "./hard-skills-logos/icon-sass.svg" : "./hard-skills-logos/lightTheme/icon-sass.svg"}`} alt="skill icon" width={40} height={40} />
         </div>
         </div>
     </div>
@@ -431,16 +431,16 @@ viewport={{ once: true }}
     >
     <div className="w-[100%] h-[370px] flex flex-row text-center justify-center justify-items-center m-[auto] items-center">
         <div>
-        <Image src='/companies/tjc.png' alt="company logo" width={100} height={100} className={`${theme === "dark" ? "invert-100 sepia-100 saturate-[0] hue-rotate-[309deg] brightness-[1.06] contrast-[1.01]" : "invert-[0] sepia-[.04] hue-rotate-[348deg] brightness-[1.03] contrast-[.72]"}`} />
+        <Image src='./companies/tjc.png' alt="company logo" width={100} height={100} className={`${theme === "dark" ? "invert-100 sepia-100 saturate-[0] hue-rotate-[309deg] brightness-[1.06] contrast-[1.01]" : "invert-[0] sepia-[.04] hue-rotate-[348deg] brightness-[1.03] contrast-[.72]"}`} />
         </div>
         <div className="flex flex-col">
         <span className="font-Michroma text-base text-[#fff] light:text-[#242424] text-center">TJC</span>
         <span className="font-Michroma text-base text-[#fff] light:text-[#242424] text-center">Backend Developer</span>
         <span className="font-Michroma text-base text-[#fff] light:text-[#242424] text-center">2022-2023</span>
         <div className="flex flex-wrap justify-center gap-[20px]">
-            <Image src={`${theme === "dark" ? "/hard-skills-logos/icon-css3.svg" : "/hard-skills-logos/lightTheme/icon-css3.svg"}`} alt="skill icon" width={40} height={40} />
-            <Image src={`${theme === "dark" ? "/hard-skills-logos/icon-javascript.svg" : "/hard-skills-logos/lightTheme/icon-javascript.svg"}`} alt="skill icon" width={40} height={40} />
-            <Image src={`${theme === "dark" ? "/hard-skills-logos/icon-sass.svg" : "/hard-skills-logos/lightTheme/icon-sass.svg"}`} alt="skill icon" width={40} height={40} />
+            <Image src={`${theme === "dark" ? "./hard-skills-logos/icon-css3.svg" : "./hard-skills-logos/lightTheme/icon-css3.svg"}`} alt="skill icon" width={40} height={40} />
+            <Image src={`${theme === "dark" ? "./hard-skills-logos/icon-javascript.svg" : "./hard-skills-logos/lightTheme/icon-javascript.svg"}`} alt="skill icon" width={40} height={40} />
+            <Image src={`${theme === "dark" ? "./hard-skills-logos/icon-sass.svg" : "./hard-skills-logos/lightTheme/icon-sass.svg"}`} alt="skill icon" width={40} height={40} />
         </div>
         </div>
     </div>
@@ -515,16 +515,16 @@ viewport={{ once: true }}
    >
     <div className="w-[100%] h-[370px] flex flex-row text-center justify-center justify-items-center m-[auto] items-center">
         <div>
-        <Image src='/companies/tjc.png' alt="company logo" width={100} height={100} className={`${theme === "dark" ? "invert-100 sepia-100 saturate-[0] hue-rotate-[309deg] brightness-[1.06] contrast-[1.01]" : "invert-[0] sepia-[.04] hue-rotate-[348deg] brightness-[1.03] contrast-[.72]"}`} />
+        <Image src='./companies/tjc.png' alt="company logo" width={100} height={100} className={`${theme === "dark" ? "invert-100 sepia-100 saturate-[0] hue-rotate-[309deg] brightness-[1.06] contrast-[1.01]" : "invert-[0] sepia-[.04] hue-rotate-[348deg] brightness-[1.03] contrast-[.72]"}`} />
         </div>
         <div className="flex flex-col">
         <span className="font-Michroma text-base text-[#fff] light:text-[#242424] text-center">TJC</span>
         <span className="font-Michroma text-base text-[#fff] light:text-[#242424] text-center">Backend Developer</span>
         <span className="font-Michroma text-base text-[#fff] light:text-[#242424] text-center">2022-2023</span>
         <div className="flex flex-wrap justify-center gap-[20px]">
-            <Image src={`${theme === "dark" ? "/hard-skills-logos/icon-css3.svg" : "/hard-skills-logos/lightTheme/icon-css3.svg"}`} alt="skill icon" width={40} height={40} />
-            <Image src={`${theme === "dark" ? "/hard-skills-logos/icon-javascript.svg" : "/hard-skills-logos/lightTheme/icon-javascript.svg"}`} alt="skill icon" width={40} height={40} />
-            <Image src={`${theme === "dark" ? "/hard-skills-logos/icon-sass.svg" : "/hard-skills-logos/lightTheme/icon-sass.svg"}`} alt="skill icon" width={40} height={40} />
+            <Image src={`${theme === "dark" ? "./hard-skills-logos/icon-css3.svg" : "./hard-skills-logos/lightTheme/icon-css3.svg"}`} alt="skill icon" width={40} height={40} />
+            <Image src={`${theme === "dark" ? "./hard-skills-logos/icon-javascript.svg" : "./hard-skills-logos/lightTheme/icon-javascript.svg"}`} alt="skill icon" width={40} height={40} />
+            <Image src={`${theme === "dark" ? "./hard-skills-logos/icon-sass.svg" : "./hard-skills-logos/lightTheme/icon-sass.svg"}`} alt="skill icon" width={40} height={40} />
         </div>
         </div>
     </div>
