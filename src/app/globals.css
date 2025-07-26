@@ -1,0 +1,16 @@
+@import "tailwindcss";
+@theme {
+    --font-Lalezar: var(--font-lalezar);
+    --font-Michroma: var(--font-michroma);
+    --font-MavenPro: var(--font-maven_pro);
+    --font-Paprika: var(--font-paprika);
+    --font-KronaOne: var(--font-krona_one);
+};
+@custom-variant light (&:where(.light, .light *));
+
+html {
+    overflow-x: clip;
+}
+body {
+    cursor: none;
+}
